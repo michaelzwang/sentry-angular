@@ -1,0 +1,31 @@
+p {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+button {
+  box-sizing: border-box;
+  border-radius: 2rem;
+  text-transform: uppercase;
+  padding: 0 .875rem;
+  font-weight: 500;
+  font-size: .875rem;
+  cursor: pointer;
+  text-rendering: optimizeLegibility;
+  transition: color .2s,border-color .2s,background-color .2s,box-shadow .2s,height .2s,line-height .2s,opacity .2s;
+  letter-spacing: .2px;
+  height: 2.5rem;
+  line-height: normal;
+  background-color: #fff;
+  border: .125rem solid #8c5393;
+  color: #8c5393;
+  box-shadow: 0 2px 0 rgba(54,45,89,.1);
+  display: block;
+  font-family: inherit;
+  margin: auto;
+}
+
+button:hover {
+  background-color: #8c5393;
+  color: #fff;
+}
